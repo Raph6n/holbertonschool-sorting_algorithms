@@ -15,7 +15,7 @@ int transfert;
 
 if (array == 0 || size < 2)
 return;
- 
+
 for (count_1 = 0; count_1 < size - 1; count_1++)
 {
 for (count_2 = 0; count_2 < size - count_1 - 1; count_2++)
