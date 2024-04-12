@@ -25,6 +25,7 @@ if (array[count_2] > array[count_2 + 1])
 transfert = array[count_2];
 array[count_2] = array[count_2 + 1];
 array[count_2 + 1] = transfert;
+print_array(array, size);
 }
 }
 }
