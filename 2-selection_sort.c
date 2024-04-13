@@ -1,5 +1,11 @@
 #include "sort.h"
 
+/**
+ * selection_sort - array in ascending order
+ * @array: array
+ * @size: number of element
+ */
+
 void selection_sort(int *array, size_t size)
 {
 size_t count_1, count_2, min;
@@ -14,7 +20,7 @@ min = count_1;
 for (count_2 = count_1 + 1; count_2 < size; count_2++)
 {
 if (array[count_2] < array[min])
-min = j;
+min = count_2;
 }
 if (min != count_1)
 {
